@@ -4,10 +4,10 @@ from stuff.general import General
 
 class Smartdock(General):
     id = "smartdock"
-    dl_link = "https://f-droid.org/repo/cu.axel.smartdock_1100.apk"
+    dl_link = "https://f-droid.org/repo/cu.axel.smartdock_1130.apk"
     partition = "system"
     dl_file_name = "smartdock.apk"
-    act_md5 = "f4087d34218eac902a5cca98ee03d215"
+    act_md5 = "6bfedb959ef5855c3782e8001cb67f86"
     apply_props = { "qemu.hw.mainkeys" : "1" }
     skip_extract = True
     permissions = """<?xml version="1.0" encoding="utf-8"?>
@@ -55,7 +55,7 @@ service set_home_activity /system/bin/sh -c "cmd package set-home-activity cu.ax
             os.makedirs(os.path.join(self.copy_dir, self.partition, "etc", "permissions"))
         shutil.copyfile(os.path.join(self.download_loc),
                         os.path.join(self.copy_dir, self.partition, "priv-app/SmartDock/smartdock.apk"))
-        
+
         with open(os.path.join(self.copy_dir, self.partition, "etc", "permissions", "permissions_cu.axel.smartdock.xml"), "w") as f:
             f.write(self.permissions)
 
