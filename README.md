@@ -2,6 +2,8 @@
 
 Script to add GApps and other stuff to Waydroid!
 
+This forked is to fix some bug that I encounter for android 11 waydroid only. If there is issue with android 13, I won’t touch it.
+
 # Installation/Usage
 
 ## Interactive terminal interface
