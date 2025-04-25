@@ -1,5 +1,7 @@
 # Waydroid Extras Script
 
+DO NOT USE MAGISK FOR NOW: https://www.reddit.com/r/Magisk/comments/1jxm1h5/discussion_kitsune_mask_maintainer_huskydg_github/
+
 Script to add GApps and other stuff to Waydroid!
 
 This forked is to fix some bug that I encounter for android 11 waydroid only. If there is issue with android 13, I won’t touch it.
@@ -79,7 +81,7 @@ Open terminal and switch to directory where "main.py" is located then run:
 
     sudo venv/bin/python3 main.py install magisk
 
-Magisk will be installed on next boot! 
+Magisk will be installed on next boot!
 
 Zygisk and modules like LSPosed should work now.
 
@@ -87,9 +89,9 @@ If you want to update Magisk, Please use `Direct Install into system partition` 
 
 This script only focuses on Magisk installation, if you need more management, please check https://github.com/nitanmarcel/waydroid-magisk
 
-## Install libndk arm translation 
+## Install libndk arm translation
 
-libndk_translation from guybrush firmware. 
+libndk_translation from guybrush firmware.
 
 libndk seems to have better performance than libhoudini on AMD.
 
@@ -153,14 +155,14 @@ Or you can run the following commands directly in `sudo waydroid shell`. In this
 
 ```
 chmod 777 -R /sdcard/Android
-chmod 777 -R /data/media/0/Android 
+chmod 777 -R /data/media/0/Android
 chmod 777 -R /sdcard/Android/data
-chmod 777 -R /data/media/0/Android/obb 
+chmod 777 -R /data/media/0/Android/obb
 chmod 777 -R /mnt/*/*/*/*/Android/data
 chmod 777 -R /mnt/*/*/*/*/Android/obb
 ```
 
-- https://github.com/supremegamers/device_generic_common/commit/2d47891376c96011b2ee3c1ccef61cb48e15aed6  
+- https://github.com/supremegamers/device_generic_common/commit/2d47891376c96011b2ee3c1ccef61cb48e15aed6
 - https://github.com/supremegamers/android_frameworks_base/commit/24a08bf800b2e461356a9d67d04572bb10b0e819
 
 ## Install microG, Aurora Store and Aurora Droid
@@ -192,7 +194,7 @@ Open terminal and switch to directory where "main.py" is located then run:
 
 Star this repository if you find this useful, if you encounter problem create an issue on GitHub!
 
-## Error handling  
+## Error handling
 
 - Magisk installed: N/A
 
