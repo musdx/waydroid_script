@@ -4,7 +4,7 @@ DO NOT USE MAGISK FOR NOW: https://www.reddit.com/r/Magisk/comments/1jxm1h5/disc
 
 Script to add GApps and other stuff to Waydroid!
 
-This forked is to fix some bug that I encounter for android 11 waydroid only. If there is issue with android 13, I won’t touch it.
+This forked is to fix some bug that I encounter for android 11 waydroid only. If there is issue with android 13, I won’t touch it, unless casualsnek fix it in the main repo.
 
 # Installation/Usage
 
